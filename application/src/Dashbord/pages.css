@@ -1,0 +1,206 @@
+.top-bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 87px;
+  background-color: white;
+  box-shadow: 0 0 4px  rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  padding:0 20px;
+
+}
+.App{
+background-size: cover !important;
+background-repeat: no-repeat !important;
+background-position: center !important;
+width: 100%;
+height:150px !important;
+margin-top: calc(150px - 87px)!important; 
+
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .point1{
+    position: relative!important;
+    transform: rotate(90deg)!important;
+    top:-182px!important;
+    left:10px!important;
+  }
+  .point2{
+    position: relative!important;
+    transform: rotate(90deg)!important;
+    top:-300px!important;
+  
+  }
+  .dot1 {
+    position: absolute !important;
+    height: 20px !important;
+    width: 20px!important;
+    background-color:black!important;
+    border-radius: 50%!important;
+    display: inline-block!important;
+    box-shadow: 5px 5px 5px 5px red!important;
+    animation: blink 1s infinite!important;
+    
+  }
+  
+  .dot2 {
+    position: absolute !important;
+    height: 20px!important;
+    width: 20px!important;
+    background-color:black!important;
+    border-radius: 50%!important;
+    display: inline-block!important;
+    box-shadow: 5px 5px 5px 5px red!important;
+    animation: blink 1.5s infinite!important;
+  }
+  
+   .dot1::after{
+    content: "__________________";
+  
+  }
+  
+  
+  .dot2::after{
+    content: "_________________________";
+  
+  } 
+  .card-body{
+    padding: 0 0 !important;
+  }
+  .splide__slide{
+    width:283px!important;
+  }
+  .splide__list{
+    width: 200px !important;
+  
+  }
+  .col-sm-4{
+    width: 270px!important;
+  }
+  .splide__arrow{
+    transform: translateY(0%);
+  }
+  .splide__slide{
+    height: 500px !important;
+  }
+
+  .accoridon1{
+    background-image: url('../Dashbord/images/phono1.webp')!important;
+    height:max-content!important;
+  }
+
+  .accoridon2{
+    background-color:rgb(65, 64, 64)!important;
+    height:max-content!important;
+  }
+  .Get-fast{
+    background-image: url('../Dashbord/images/footer.webp')!important;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+  }
+  .from-control{
+    border-radius:2rem;
+    width:30rem;
+    height: 3rem;
+  }
+  .areej:hover{
+    background-color:red;
+
+}
+.card5{
+  width:200px !important;
+  height: 400px !important;
+}
+.section-AM{
+  margin-top:12rem;
+}
+.section-AM1{
+  margin-top:45rem;
+}
+
+@media screen  and (max-width:1245px){
+  .point1{
+   display:none;
+  }
+  .point2{
+  display: none;
+  
+  }
+  .dot1 {
+    display: none;
+    
+  }
+  
+  .dot2 {
+    display: none;
+  }
+  
+   .dot1::after{
+    display: none;
+  
+  }
+  
+  
+  .dot2::after{
+    display: none;
+  
+  } 
+  
+}
+
+@media screen and (max-width:661px) {
+  .span-arej{
+    display: none!important;
+  }
+  .from-control{
+    border-radius:2rem;
+    width:20rem!important;
+    height: 3rem;
+  }
+  
+
+}
+@media screen and (max-width:800px) {
+  .card-AM{
+    padding-bottom:5rem;
+
+  }}
+@media screen and (max-width:800px) {
+  .card-AM{
+    padding-bottom:5rem;
+
+  }}
+@media screen and (max-width:550px) {
+  .card-areej{
+    width:100px !important;
+    height: 400px !important;
+  }}
+  
+@media screen and (max-width:395px) {
+  .card5{
+    width:200px !important;
+    height: 400px !important;
+  }
+  
+}
+@media screen and (max-width:359px) {
+  .span-arej{
+    display: none!important;
+  }
+  .from-control{
+    border-radius:2rem;
+    width:15rem!important;
+    height: 3rem;
+  }}
+
+
+
+
